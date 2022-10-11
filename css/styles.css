@@ -16,6 +16,7 @@ address {
 }
 .list-style {
   list-style-type: none;
+  padding: 0px;
 }
 
 .list-item-box {
@@ -44,7 +45,11 @@ address {
 }
 .team-list-style {
   display: flex;
+  justify-content: center;
   list-style-type: none;
+  margin: 0 auto;
+  padding: 0px;
+  width: 1170px;
 }
 .team-member {
   background: #ffffff;
@@ -166,15 +171,18 @@ address {
   margin: 94px 215px;
 }
 .header-secondary {
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  margin: 94px 624px 50px;
-  padding: auto;
+  margin: 0px;
+  margin-bottom: 50px;
 }
 .section-tertiary {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 0px;
 }
 .header-tertiary {
   font-weight: 700;
@@ -186,4 +194,7 @@ address {
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
+}
+.team-section {
+  background-color: #f5f4fa;
 }
