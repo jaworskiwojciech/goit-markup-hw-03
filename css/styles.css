@@ -179,10 +179,21 @@ address {
   margin: 0px;
   margin-bottom: 50px;
 }
+.header-team {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin: 0px;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
 .section-tertiary {
   display: flex;
   justify-content: space-around;
   padding: 0px;
+  margin: 0px;
 }
 .header-tertiary {
   font-weight: 700;
