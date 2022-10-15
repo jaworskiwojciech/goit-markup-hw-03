@@ -1,9 +1,14 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-}
-.wrapper {
   width: 1600px;
+}
+/* .wrapper {
+  width: 1600px;
+} */
+.container {
+  width: 1200px;
+  margin: auto;
 }
 address {
   font-style: normal;
@@ -49,7 +54,7 @@ address {
   list-style-type: none;
   margin: 0 auto;
   padding: 0px;
-  width: 1170px;
+  /* gap: 30px; */
 }
 .team-member {
   background: #ffffff;
@@ -167,8 +172,8 @@ address {
 .section-secondary {
   display: flex;
   justify-content: space-evenly;
-  width: 1170px;
-  margin: 94px 215px;
+  /* width: 1170px; */
+  /* margin: 94px 215px; */
 }
 .header-secondary {
   display: flex;
