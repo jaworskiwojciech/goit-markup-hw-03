@@ -29,6 +29,22 @@ address {
   height: 404px;
   border: 1px solid #eeeeee;
 }
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 215px;
+  padding-right: 227px;
+  border-bottom: 1px solid #ececec;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+  /* margin-left: 93px; */
+}
 .webstudio {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -92,6 +108,8 @@ address {
   color: #757575;
   text-decoration: none;
 }
+.contact-item-header {
+}
 .contact-item:hover,
 .contact-item:focus {
   color: #2196f3;
@@ -120,6 +138,7 @@ address {
   text-decoration: none;
   color: #212121;
 }
+
 .navigation-item:hover,
 .navigation-item:focus {
   color: #2196f3;
