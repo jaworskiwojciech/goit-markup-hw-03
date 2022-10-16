@@ -33,17 +33,17 @@ address {
 header {
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  padding-left: 215px;
-  padding-right: 227px;
+  /* padding-left: 215px;
+  padding-right: 227px; */
   border-bottom: 1px solid #ececec;
 }
 .nav-list {
   display: flex;
   justify-content: space-between;
   gap: 46px;
-  /* margin-left: 93px; */
+  margin-right: 371px;
 }
 .webstudio {
   font-family: "Raleway", sans-serif;
@@ -53,6 +53,7 @@ header {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 .studio {
   color: #000000;
@@ -109,6 +110,7 @@ header {
   text-decoration: none;
 }
 .contact-item-header {
+  margin-right: 50px;
 }
 .contact-item:hover,
 .contact-item:focus {
