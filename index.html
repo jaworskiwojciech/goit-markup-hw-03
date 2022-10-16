@@ -15,23 +15,27 @@
     />
   </head>
   <body class="wrapper">
-    <header class="container">
-      <a href="index.html" class="webstudio"
-        >Web<span class="studio">Studio</span></a
-      >
-      <nav>
-        <ul class="list-style nav-list">
-          <li><a href="" class="navigation-item">Agencja</a></li>
-          <li>
-            <a href="portfolio.html" class="navigation-item">Portfolio</a>
-          </li>
-          <li><a href="" class="navigation-item">Kontakt</a></li>
-        </ul>
-      </nav>
-      <a class="contact-item contact-item-header" href="mailto:info@example.com"
-        >info@devstudio.com</a
-      >
-      <a class="contact-item" href="tel:+48111111111">+48 111 111 111</a>
+    <header>
+      <div class="header container">
+        <a href="index.html" class="webstudio"
+          >Web<span class="studio">Studio</span></a
+        >
+        <nav>
+          <ul class="list-style nav-list">
+            <li><a href="" class="navigation-item">Agencja</a></li>
+            <li>
+              <a href="portfolio.html" class="navigation-item">Portfolio</a>
+            </li>
+            <li><a href="" class="navigation-item">Kontakt</a></li>
+          </ul>
+        </nav>
+        <a
+          class="contact-item contact-item-header"
+          href="mailto:info@example.com"
+          >info@devstudio.com</a
+        >
+        <a class="contact-item" href="tel:+48111111111">+48 111 111 111</a>
+      </div>
     </header>
     <main>
       <section class="section-primary">
@@ -105,80 +109,69 @@
       <section class="team-section">
         <h2 class="header-team">Nasz zespół</h2>
         <ul class="team-list-style container">
-          <li>
-            <figure class="team-member">
-              <img
-                src="images/product-designer.jpg"
-                alt="Zdjęcie Product Designera"
-                width="270"
-                height="260"
-              />
-              <figcaption class="team-description">
-                <h3 class="team-name">John Doe</h3>
-                <p class="team-description">Product Designer</p>
-              </figcaption>
-            </figure>
+          <li class="team-member">
+            <img
+              src="images/product-designer.jpg"
+              alt="Zdjęcie Product Designera"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name">John Doe</h3>
+            <p class="team-description">Product Designer</p>
           </li>
-          <li>
-            <figure class="team-member">
-              <img
-                src="images/frontend-developer.jpg"
-                alt="Zdjęcie Frontend Developera"
-                width="270"
-                height="260"
-              />
-              <figcaption class="team-description">
-                <h3 class="team-name">John Doe</h3>
-                <p class="team-description">Frontend Developer</p>
-              </figcaption>
-            </figure>
+          <li class="team-member">
+            <img
+              src="images/frontend-developer.jpg"
+              alt="Zdjęcie Frontend Developera"
+              width="270"
+              height="260"
+            />
+
+            <h3 class="team-name">John Doe</h3>
+            <p class="team-description">Frontend Developer</p>
           </li>
-          <li>
-            <figure class="team-member">
-              <img
-                src="images/marketing.jpg"
-                alt="Zdjęcie Marketingowca"
-                width="270"
-                height="260"
-              />
-              <figcaption class="team-description">
-                <h3 class="team-name">John Doe</h3>
-                <p class="team-description">Marketing</p>
-              </figcaption>
-            </figure>
+          <li class="team-member">
+            <img
+              src="images/marketing.jpg"
+              alt="Zdjęcie Marketingowca"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name">John Doe</h3>
+            <p class="team-description">Marketing</p>
           </li>
-          <li>
-            <figure class="team-member">
-              <img
-                src="images/ui-designer.jpg"
-                alt="Zdjecie UI Designera"
-                width="270"
-                height="260"
-              />
-              <figcaption class="team-description">
-                <h3 class="team-name">John Doe</h3>
-                <p class="team-description">UI Designer</p>
-              </figcaption>
-            </figure>
+          <li class="team-member">
+            <img
+              src="images/ui-designer.jpg"
+              alt="Zdjecie UI Designera"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name">John Doe</h3>
+            <p class="team-description">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer-style">
-      <a href="index.html" class="webstudio"
-        >Web<span class="studio-in-footer">Studio</span></a
-      >
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <ul class="list-style">
-        <li>
-          <a class="contact-item" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-item" href="tel:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
+      <div class="container">
+        <a href="index.html" class="webstudio"
+          >Web<span class="studio-in-footer">Studio</span></a
+        >
+        <ul class="list-in-footer">
+          <li>
+            <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+          </li>
+          <li>
+            <a class="contact-item" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-item" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
