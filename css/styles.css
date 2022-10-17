@@ -29,13 +29,15 @@ address {
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 56px;
 }
 .list-style-portfolio {
   list-style-type: none;
   padding: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
+  gap: 30px;
 }
 .list-item-box {
   width: 370px;
@@ -262,4 +264,8 @@ footer {
 }
 .portfolio-main-container {
   margin: 94px, 215px;
+}
+.main {
+  /* margin-top: 94px; */
+  padding: 94px 0;
 }
