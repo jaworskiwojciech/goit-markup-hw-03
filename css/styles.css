@@ -23,7 +23,20 @@ address {
   list-style-type: none;
   padding: 0px;
 }
-
+.portfolio-buttons {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.list-style-portfolio {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .list-item-box {
   width: 370px;
   height: 404px;
@@ -246,4 +259,7 @@ footer {
   list-style-type: none;
   padding: 0px;
   gap: 9px;
+}
+.portfolio-main-container {
+  margin: 94px, 215px;
 }
